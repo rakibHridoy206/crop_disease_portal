@@ -11,7 +11,7 @@ with open("model/labels.txt", "r") as f:
 # Load model
 MODEL_PATH = "model/model.pth"
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-model = torch.load(MODEL_PATH, map_location=device)
+model = torch.load(MODEL_PATH, map_location=device, weights_only=False)
 model.eval()
 
 # Define image transforms
