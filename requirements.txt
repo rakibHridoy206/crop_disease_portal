@@ -3,3 +3,9 @@ uvicorn
 python-multipart
 jinja2
 aiofiles
+torch
+torchvision
+transformers
+Pillow
+opencv-python
+numpy

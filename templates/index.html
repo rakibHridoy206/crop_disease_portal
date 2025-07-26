@@ -10,6 +10,10 @@
       <button type="submit">Upload</button>
     </form>
 
+    <form action="/clear" method="post" style="margin-top:20px;">
+      <button type="submit" style="background-color: red; color: white;">Clear Data</button>
+    </form>
+
     {% if message %}
     <p style="color: green">{{ message }}</p>
     <video width="480" controls>
